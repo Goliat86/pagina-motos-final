@@ -1,0 +1,266 @@
+@media (max-width: 600px) {
+    .facet_sidebar{
+        display: none;
+    }
+    .manual{
+        width: auto;
+        height: auto;
+      
+    }
+    .tutorial{
+        width: auto;
+        height: auto;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.manual{
+    margin: auto;
+    max-width: 900px;
+    
+    background: 
+        linear-gradient(to top, #1e1f1fa4 0%, #2e0505ab 48%, #080827b2 100%) , url("img/fondomanuales.jpg")padding-box,  linear-gradient(to bottom, #06213b, rgb(0, 162, 255)), border-box;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+      border: 5px solid transparent;
+      border-radius: 10% 10% 10% 10%;
+      box-shadow: 10px 10px 60px 10px;
+}
+
+
+.cajas_contenedoras{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+    .cajas_contenedoras .cajas1,
+    .cajas_contenedoras .cajas2,
+    .cajas_contenedoras .cajas3,
+    .cajas_contenedoras .cajas4,
+    .cajas_contenedoras .cajas5,
+    .cajas_contenedoras .cajas6{
+        
+        width: 250px;
+        height: 180px;
+        padding: 20px;
+        margin: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
+        transition: all 500ms;
+        
+}
+
+
+.cajas1 {
+        background-image:url("img/motos/nkdex.jpg");
+}
+.cajas2 {
+        background-image:url("img/motos/cr4seuc.jpg");
+}
+.cajas3 {
+        background-image:url("img/motos/cr5.jpg");
+}
+.cajas4 {
+        background-image:url("img/motos/jet.jpg");
+}
+.cajas5 {
+        background-image:url("img/motos/ttr.jpg");
+}
+.cajas6 {
+        background-image:url("img/motos/evo.jpg");
+}
+
+
+.cajas_contenedoras h4{
+        position: relative;
+        margin-top: 0px;
+        z-index: 1;
+}
+.cajas_contenedoras h4{
+        font-size: 0px;
+        color: white;
+        opacity: 1;
+        transition: all 300ms;
+}
+
+
+
+.cajas_contenedoras .background_hover{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 250px;
+        left: -170px;
+        background-image: url("img/pdf.jpg");
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        box-shadow: inset 6px 6px 60px 6px black;
+        transition: all 800ms;
+}
+
+    
+.cajas_contenedoras h4{
+        position: relative;
+        margin-top: 0px;
+        z-index: 1;
+}
+.cajas_contenedoras h4{
+        font-size: 0px;
+        color: white;
+        opacity: 1;
+        transition: all 1000ms;
+}
+
+
+
+.cajas1:hover h4{
+    font-size: 30px;
+    transform: translateY(0);
+    opacity: 1;
+}
+.cajas1:hover .background_hover{
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+}
+.cajas1:hover{
+    transform: translate(10px, -10px);
+}
+
+.cajas2:hover h4{
+    font-size: 30px;
+    transform: translateY(0);
+    opacity: 1;
+}
+.cajas2:hover .background_hover{
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+}
+.cajas2:hover{
+    transform: translate(10px, -10px);
+}
+
+.cajas3:hover h4{
+    font-size: 30px;
+    transform: translateY(0);
+    opacity: 1;
+}
+.cajas3:hover .background_hover{
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+}
+.cajas3:hover{
+    transform: translate(10px, -10px);
+}
+.cajas4:hover h4{
+    font-size: 30px;
+    transform: translateY(0);
+    opacity: 1;
+}
+.cajas4:hover .background_hover{
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+}
+.cajas4:hover{
+    transform: translate(10px, -10px);
+}
+.cajas5:hover h4{
+    font-size: 30px;
+    transform: translateY(0);
+    opacity: 1;
+}
+.cajas5:hover .background_hover{
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+}
+.cajas5:hover{
+    transform: translate(10px, -10px);
+}
+.cajas6:hover h4{
+    font-size: 30px;
+    transform: translateY(0);
+    opacity: 1;
+}
+.cajas6:hover .background_hover{
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+}
+.cajas6:hover{
+    transform: translate(10px, -10px);
+    box-shadow: -10px 10px 20px -10px rgba(0, 0, 0, 0.493);
+}
+
+
+
+
+
+
+
+
+
+.tutorial{
+   margin: auto;
+    max-width: 900px;
+    
+    background: 
+        linear-gradient(to top, #1e1e1fa4 0%, #2e0505ab 48%, #080827b2 100%) , url("img/form.jpg")padding-box,  linear-gradient(to bottom, #06213b, rgb(0, 162, 255)), border-box;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+      border: 5px solid transparent;
+      border-radius: 10% 10% 10% 10%;
+      box-shadow: 10px 10px 60px 10px;
+    }
+    .principal{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    
+    .principal .contenedor1,
+    .principal .contenedor2,
+    .principal .contenedor3,
+    .principal .contenedor4,
+    .principal .contenedor5,
+    .principal .contenedor6{
+        justify-content: center;
+        width: 350px;
+        height: auto;
+        padding: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+    
+
+  
